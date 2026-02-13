@@ -4,7 +4,7 @@
   "description": "Exatamente aqui, é o ponto de partida para uma aventura na programação",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev"
   },
   "author": "",
   "license": "MIT",
