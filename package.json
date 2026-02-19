@@ -4,7 +4,9 @@
   "description": "Exatamente aqui, é o ponto de partida para uma aventura na programação",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check . ",
+    "lint:fix": "prettier --write . "
   },
   "author": "",
   "license": "MIT",
@@ -12,6 +14,8 @@
     "next": "^15.5.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
   }
 }
-  
