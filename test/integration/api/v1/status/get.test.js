@@ -15,6 +15,4 @@ test("GET to /api/v1/status should return 200", async () => {
   expect(responseBody).not.toHaveProperty("password"); // Ensure that sensitive information is not included in the response
   expect(responseBody).not.toHaveProperty("email");
   expect(responseBody).not.toHaveProperty("secret_ley");
-
-  console.log(responseBody);
 });
