@@ -11,7 +11,7 @@ async function query(queryObject) {
   });
 
   console.log("credenciais do Postgres", {
-    host: process.env.PROSTGRES_HOST,
+    host: process.env.POSTGRES_HOST,
     port: process.env.POSTGRES_PORT,
     user: process.env.POSTGRES_USER,
     database: process.env.POSTGRES_DB,
